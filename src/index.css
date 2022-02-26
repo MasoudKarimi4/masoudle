@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
 :root {
   --animation-speed: 1000ms;
   --animation-speed-fast: 250ms;
